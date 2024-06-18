@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans";
+}
+
+audio {
+}
+
+.menu-desktop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    list-style: none;
+    background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+    box-shadow: 0px 1px 15px rgb(100, 100, 100);
+}
+
+.menu-item {
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    border: 1px white;
+}
+
+.menu-image {
+    width: 10vw;
+    height: 3rem;
+    margin-right: auto;
+}
+
+.sobre-main {
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    background-image: url(/assets/images/trollface.png), linear-gradient( rgba(252, 15, 192, 1), rgba(252, 15, 192, 1));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+
+h1 {
+    background-image: url(/assets/images/foguinho.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem;
+    color: red;
+}
+
+figure img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.sobre-article {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: linear-gradient(to right, rgba(255, 165, 0, 0.85), rgba(255, 255, 0, 0.85), rgba(0, 128, 0, 0.85), rgba(0, 255, 255, 0.85), rgba(0, 0, 255, 0.85), rgba(238, 130, 238, 0.85));
+    padding: 2rem;
+    border-radius: 100px;
+    margin-bottom: 2rem;
+}
+
+.sobre-article aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.jumpscare {
+    background: url(/assets/images/cat.gif);
+    width: 400px;
+    height: 500px;
+    transition: ease-in-out 0.2s;
+}
+
+.jumpscare:hover {
+    background: url(/assets/images/jumpscare.png);
+    width: 500px;
+    scale: 3;
+}
+
+.sinistro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 100px;
+    width: 80%;
+    padding: 4rem;
+    color: white;
+    font-size: 2rem;
+    background: url(/assets/images/skeleto_bike.gif);
+    background-size: 100% 100%;
+}
