@@ -1,0 +1,70 @@
+.titulo-raio {
+    width: auto;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+    color: yellow;
+    background: url(/assets/images/lightning.gif);
+    background-size: 100% 100%;
+}
+
+.fundo-preto {
+    background-image: url(/assets/images/sanguinho.gif), linear-gradient( black, black);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+#enviar {
+    background-image: url(/assets/images/aguiamanda.gif);
+    background-size: 100% 100%;
+    width: 10rem;
+    height: 4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+}
+
+fieldset img {
+    width: 4vw;
+}
+
+.input-usuario {
+    border-radius: 1rem;
+    padding: 0.8rem;
+    width: 40rem;
+    border: none;
+}
+
+input:focus, textarea:focus {
+    background: linear-gradient(to right, rgba(255, 165, 0, 0.85), rgba(255, 255, 0, 0.85), rgba(0, 128, 0, 0.85), rgba(0, 255, 255, 0.85), rgba(0, 0, 255, 0.85), rgba(238, 130, 238, 0.85));
+}
+
+.input-assunto {
+    border-radius: 1rem;
+    padding: 0.8rem;
+    width: 80rem;
+    border: none;
+}
+
+

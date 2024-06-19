@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.titulo-programacao {
+    width: 100%;
+    height: 200px;
+    font-size: 3rem;
+    text-align: center;
+    background-color: black;
+    background: url(/assets/images/matrix.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icone {
+    width: 6.5rem;
+    height: 6rem;
+}
+
+.computador {
+    background: url(/assets/images/computador.gif);
+}
+
+.cobra {
+    background: url(https://web.archive.org/web/20090723121911/http://www.geocities.com/kimman123/snakemove.gif);
+}
+
+.mutante {
+    background: url(https://web.archive.org/web/20091027000612/http://br.geocities.com/patclinvet/figuras/fire.gif);
+}
+
+.java {
+    background: url(https://web.archive.org/web/20040402003900/http://es.geocities.com:80/narciso_es/images/javalogo.gif);
+}
+
+.php {
+    background: url(https://web.archive.org/web/20091027083731/http://geocities.com/alizaouchi/elephant.gif);
+}
+
+.c {
+    background: url(https://web.archive.org/web/20090820103051/http://geocities.com/channel40plus/images/oldmanwheelchair.gif);
+}
+
+.cmais {
+    background: url(https://web.archive.org/web/20091026045159/http://geocities.com/Area51/Corridor/2912/wizard.gif)
+}
+
+.erlang {
+    background: url(https://web.archive.org/web/20090821070648/http://geocities.com/pasdeparasite/phone2-1.gif);
+}
+
+.assembly {
+    background: url(https://web.archive.org/web/20091025104638/http://www.geocities.com/tiespjar/images/robot.gif);
+}
+
+.guarulhos {
+    background: url(https://web.archive.org/web/20090830234304/http://geocities.com/a_wee_bleather/samhein/comehereskeleton.gif);
+}
+
+ol {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 7rem;
+}
+
+ol li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    gap: 2rem;
+}
+
+.ranking {
+    padding: 2rem;
+}
+
+.ranking h1 {
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ranking aside {
+    background: linear-gradient(to right, rgba(255, 165, 0, 0.95), rgba(255, 255, 0, 0.95), rgba(0, 128, 0, 0.95), rgba(0, 255, 255, 0.95), rgba(0, 0, 255, 0.95), rgba(238, 130, 238, 0.95));
+    color: black;
+    padding: 4rem;
+}
+
+#python {
+    background-image: url(https://web.archive.org/web/20091022033225/http://www.geocities.com/orioli_dr/snake_green.gif);
+}
+
+#javascript {
+    background-image: url(https://web.archive.org/web/20091025162704/http://geocities.com/curt_sigurdsen/firebar.gif);
+}
+
+#java {
+    background-image: url(https://web.archive.org/web/20091027125855/http://geocities.com/caychanh/gif/coffee1.gif);
+}
+
+#php {
+    background-image: url(https://web.archive.org/web/20090801122302/http://www.geocities.com/Heartland/7202/elephant_an.gif);
+}
+
+#c {
+    background-image: url(https://web.archive.org/web/20090820103616/http://geocities.com/channel40plus/images/oldladyrocking.gif);
+}
+
+#cmais {
+ background-image: url(https://web.archive.org/web/20090729061648/http://www.geocities.com/rollin_thunder_spades_group/lighting2.gif);
+}
+
+#erlang {
+ background-image: url(https://web.archive.org/web/20090821221336/http://geocities.com/bethvw/computer.gif);
+}
+
+#assembly {
+    background-image: url(https://web.archive.org/web/20090831045555/http://geocities.com/cryo_fm/img/binary.gif);
+}
+
+#guarulhos {
+    background-image: url(https://web.archive.org/web/20091024200804/http://www.geocities.com/mikebarras/Skeleton_Walking_transparent.gif);
+}

@@ -4,30 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top 10</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="/assets/style/styleTop10.css">
   </head>
   <body>
     <nav>
-      <ul>
+      <ul class="menu-desktop">
         <li>
-          <a href="index.html">Home</a>
+          <marquee id="kombi-bola" behavior="" direction="">
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/jirachi.gif" alt="jirachi">
+          </marquee>
         </li>
         <li>
-          <a href="contato.html">Contato</a>
+          <img
+            class="menu-image"
+            src="/assets/images/minecraft_zoado.jpg"
+            alt="logo da minecraft"
+          />
         </li>
         <li>
-          <a href="top10.html">Top 10</a>
+          <a class="menu-item" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="menu-item" href="contato.html">Contato</a>
+        </li>
+        <li>
+          <a class="menu-item" href="top10.html">Top 10</a>
         </li>
       </ul>
     </nav>
 
-    <main>
-      <h1>
+    <main class="fundo-top10">
+      <h1 class="titulo-programacao">
+        <span class="icone computador"></span>
         Linguagens de progamação que só são
+        <span class="icone computador"></span>
       </h1>
       <section>
         <ol reversed>
-          <li>
-            <h1>Python</h1>
+          <li id="python" class="ranking">
+            <h1><span class="icone cobra"></span>Python<span class="icone cobra"></span></h1>
             <figure>
               <div
                 class="tenor-gif-embed"
@@ -66,8 +82,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>Javascript</h1>
+          <li id="javascript" class="ranking">
+            <h1><span class="icone mutante"></span><img src="https://web.archive.org/web/20090727164939/http://mx.geocities.com/drachack2/ima/java.gif" alt=""><span class="icone mutante"></span></h1>
             <figure>
               <div
                 class="tenor-gif-embed"
@@ -101,8 +117,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>Java</h1>
+          <li id="java" class="ranking">
+            <h1><span class="icone java"></span>Java<span class="icone java"></span></h1>
             <figure>
                 <div class="tenor-gif-embed" data-postid="19415478" data-share-method="host" data-aspect-ratio="1" data-width="250px"><a href="https://tenor.com/view/coffee-arr-java-gif-19415478">Coffee Arr GIF</a>from <a href="https://tenor.com/search/coffee-gifs">Coffee GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
             </figure>
@@ -115,8 +131,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>PHP</h1>
+          <li id="php" class="ranking">
+            <h1><span class="icone php"></span>PHP<span class="icone php"></span></h1>
             <figure>
               <div
                 class="tenor-gif-embed"
@@ -140,8 +156,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>C</h1>
+          <li id="c" class="ranking">
+            <h1><span class="icone c"></span>C<span class="icone c"></span></h1>
             <img src="https://avipecprodutos.fbitsstatic.net/img/p/pistola-de-pressao-qgk-airgun-k1911-ag-4-5mm-hibrida-74251/260815-2.jpg?w=520&h=520&v=no-change&qs=ignore" alt="arma">
             </figure>
             <aside>
@@ -150,8 +166,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>C++</h1>
+          <li id="cmais" class="ranking">
+            <h1><span class="icone cmais"></span>C++<span class="icone cmais"></span></h1>
             <img src="https://acdn.mitiendanube.com/stores/001/062/146/products/fe7a8638476dd27617cdb33d5dc33a7d-copy1-32c4b30f484d451e2516189827586441-640-0.jpg" alt="arma">
             </figure>
             <aside>
@@ -160,8 +176,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>Erlang</h1>
+          <li id="erlang" class="ranking">
+            <h1><span class="icone erlang"></span>Erlang<span class="icone erlang"></span></h1>
             <div class="tenor-gif-embed" data-postid="25654051" data-share-method="host" data-aspect-ratio="1" data-width="250px"><a href="https://tenor.com/view/whatsapp-gif-25654051">Whatsapp GIF</a>from <a href="https://tenor.com/search/whatsapp-gifs">Whatsapp GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
             </figure>
             <aside>
@@ -170,8 +186,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>Menção honrosa - Assembly</h1>
+          <li id="assembly" class="ranking">
+            <h1><span class="icone assembly"></span>Menção honrosa - Assembly<span class="icone assembly"></span></h1>
             <div class="tenor-gif-embed" data-postid="19276963" data-share-method="host" data-aspect-ratio="1.78771" data-width="400px"><a href="https://tenor.com/view/pc-gif-19276963">Pc GIF</a>from <a href="https://tenor.com/search/pc-gifs">Pc GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
             </figure>
             <aside>
@@ -180,8 +196,8 @@
             </aside>
           </li>
 
-          <li>
-            <h1>Guarulhos</h1>
+          <li id="guarulhos" class="ranking">
+            <h1><span class="icone guarulhos"></span>Guarulhos<span class="icone guarulhos"></span></h1>
             <figure>
             <img src="https://notnowmom.com/wp-content/uploads/2022/05/Bloodborne-Central-Yharnam-wiki.webp" alt="guarulhos">
             </figure>

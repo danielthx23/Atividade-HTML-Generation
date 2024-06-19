@@ -4,49 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contatos</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="/assets/style/styleContato.css">
   </head>
   <body>
     <nav>
-      <ul>
+      <ul class="menu-desktop">
         <li>
-          <a href="index.html">Home</a>
+          <marquee id="kombi-bola" behavior="" direction="">
+            <img src="/assets/images/kombi_bola.jpg" alt="kombi bola">
+          </marquee>
         </li>
         <li>
-          <a href="contato.html">Contato</a>
+          <img
+            class="menu-image"
+            src="/assets/images/minecraft_zoado.jpg"
+            alt="logo da minecraft"
+          />
         </li>
         <li>
-          <a href="top10.html">Top 10</a>
+          <a class="menu-item" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="menu-item" href="contato.html">Contato</a>
+        </li>
+        <li>
+          <a class="menu-item" href="top10.html">Top 10</a>
         </li>
       </ul>
     </nav>
 
-    <main>
+    <main class="fundo-preto">
       <section>
-        <h1>Entre em contato comigo</h1>
+        <div class="titulo-raio">
+      <h1>Entre em contato comigo, se tiver coragem</h1>
+      </div>
 
-        <form>
-          <label for="nome">Nome: </label> <br />
-          <!-- Tag provisória -->
-          <input type="text" id="nome" />
-          <br />
-          <!-- Tag provisória -->
-          <br />
-          <!-- Tag provisória -->
-          <label for="email">Email: </label> <br />
-          <!-- Tag provisória -->
-          <input type="email" id="email" />
-          <br />
-          <!-- Tag provisória -->
-          <br />
-          <!-- Tag provisória -->
-          <label for="assunto">Assunto: </label> <br />
-          <!-- Tag provisória -->
-          <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-          <br />
-          <!-- Tag provisória -->
-          <br />
-          <!-- Tag provisória -->
-          <button type="submit">Enviar</button>
+        <form >
+          <fieldset>
+          <label for="nome">Nome: </label> <img src="/assets/images/esqueleto_sorrateiro.gif" alt="">
+          <input class="input-usuario" type="text" id="nome" />
+        </fieldset>
+
+        <fieldset>
+          <img src="/assets/images/email.gif" alt="">
+          <input class="input-usuario" type="email" id="email"/>
+        </fieldset>
+
+        <fieldset>
+          <label for="assunto">Assunto: </label> 
+          <textarea class="input-assunto" name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        </fieldset>
+
+          <button id="enviar" type="submit"></button>
         </form>
       </section>
       <section>
@@ -55,6 +65,7 @@
         <aside>
           <p>Primeiro Círculo do Inferno: Limbo</p>
           <p>9 círculos do inferno</p>
+          <img src="/assets/images/naovaparaguarulhos.gif" alt="">
         </aside>
 
         <figure>
